@@ -317,3 +317,16 @@ p {
 .foot-container p {
     color: #E3FDFD;
 }
+
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column; /* Stack the items vertically */
+    }
+    .navlist {
+        flex-direction: column;
+        align-items: center; /* Align items in the center */
+    }
+    .navlist li {
+        margin: 5px 0; /* Reduce margin for list items */
+    }
+}
